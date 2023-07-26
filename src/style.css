@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dfdfdf;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type='text'],
+input[type='number'] {
+  border: #303030 solid 1px;
+  padding: 0.5em 1em;
+  color: #303030;
+  border-radius: 5px;
+  width: 100%;
+}
+
+input[type='button'],
+button {
+  cursor: pointer;
+}
+
+input[type='checkbox'] {
+  scale: 1.4;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px 25px;
+  border: 2px solid black;
+  margin: 5px 8px;
+  border-radius: 5px;
+}
+
+.nav a {
+  color: black;
+  padding: 0 10px;
+}
+
+.nav-border {
+  border-right: 2px solid black;
+  padding-right: 10px;
+}
+
+.nav a:hover {
+  color: blue;
+}
+
+main {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.bg {
+  padding: 1em;
+  border-bottom: #d2d2d2 solid 1px;
+}
+
+.bg-primary {
+  border: #303030 solid 2px;
+}
+
+#leadboard-section {
+  background-color: #fcfafa;
+  width: 40em;
+  max-width: 90%;
+  font-size: large;
+  padding: 2em 0;
+}
+
+#leadboard-section h2 {
+  color: #3d3d3d;
+  font-weight: 400;
+}
+
+.borderless {
+  border: unset;
+  width: 20em;
+  padding: 0.2em;
+  font-size: large;
+  font-style: italic;
+  background-color: unset;
+}
+
+.leadboard,
+.borderless,
+#clear label {
+  font-size: 1.2em;
+  padding-left: 1em;
+  color: #303030;
+}
+
+#clear label {
+  color: #6c6c6c;
+}
+
+.leadboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+}
+
+#clear,
+#clear label {
+  text-align: center;
+  cursor: pointer;
+}
+
+.bg-brown {
+  background-color: #ffffc6;
+}
+
+#add-btn {
+  float: right;
+  border: unset;
+  background-color: unset;
+}
+
+.cancelled {
+  text-decoration: line-through;
+}
+
+.hidden {
+  display: none;
+}
+
+.float-right {
+  float: right;
+}
+
+.btn {
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.col-md-12,
+.col-md-6 {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .col-md-6 {
+    width: 45%;
+  }
+}
