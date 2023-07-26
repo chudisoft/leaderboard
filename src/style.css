@@ -67,8 +67,23 @@ main {
   border-bottom: #d2d2d2 solid 1px;
 }
 
+#leaderboard .bg:nth-child(odd) {
+  background-color: #5ca6f5;
+  color: #fff;
+}
+
+#leaderboard .bg:hover,
+button:hover {
+  background-color: #303030;
+  color: #fff;
+}
+
 .bg-primary {
-  border: #303030 solid 2px;
+  background-color: #5d9ee3;
+}
+
+.bg-primary-light {
+  background-color: #62a3e7;
 }
 
 #leadboard-section {
@@ -143,6 +158,11 @@ main {
 .btn {
   padding: 0.5em 1em;
   cursor: pointer;
+}
+
+.btn-primary {
+  color: #fcfafa;
+  background-color: rgb(0, 81, 255);
 }
 
 .row {
