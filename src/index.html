@@ -10,19 +10,6 @@
 </head>
 
 <body>
-  <!-- nav-bar -->
-  <header hidden>
-    <nav class="nav">
-      <div>
-        <a href="#">Leaderboard</a>
-      </div>
-      <div>
-        <a id="listBtn" class="nav-border" href="#List">List</a>
-        <a id="AddNewBtn" class="nav-border" href="#Add-new">Add new</a>
-      </div>
-    </nav>
-  </header>
-  <!-- nav-bar end -->
   <main>
     <section id="leadboard-section" class="row">
       <div class="col-md-12 row">
@@ -285,12 +272,11 @@
       </div>
       <h1 class="bg col-md-12">
         Leaderboard
-
       </h1>
       <div class="col-md-6 bg-primary">
         <h3 class="bg">Recent Scores
-          <button class="btn-no" type="button" id="add-btn">
-            <span> Refresh <i class="fa fa-refresh"></i></span>
+          <button class="btn-no" type="button" id="btnRefresh">
+            <span> Refresh </span><i class="fa fa-refresh"></i>
           </button>
         </h3>
         <div id="leaderboard">
