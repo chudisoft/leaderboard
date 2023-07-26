@@ -2,28 +2,16 @@ import LeadboardList from './modules/leadboardlist.js';
 import './style.css';
 
 const form = document.querySelector('form');
+const btnRefresh = document.querySelector('#btnRefresh');
 const leadboardNew = new LeadboardList();
 
-const leadboardTestList = [
-  {
-    name: `User ${leadboardNew.getLeadboardList().length + 2}`,
-    score: 30,
-    index: leadboardNew.getLeadboardList().length + 2,
-  },
-  {
-    name: `User ${leadboardNew.getLeadboardList().length + 3}`,
-    score: 20,
-    index: leadboardNew.getLeadboardList().length + 3,
-  },
-  {
-    name: `User ${leadboardNew.getLeadboardList().length + 4}`,
-    score: 10,
-    index: leadboardNew.getLeadboardList().length + 4,
-  },
-];
+document.body.onload = () => {
+  if (leadboardNew.gameId === null) leadboardNew.createGame();
+};
 
-leadboardTestList.forEach((x) => {
-  leadboardNew.addLeadboard(x);
+//  add an event listener to the refresh button
+btnRefresh.addEventListener('click', () => {
+  leadboardNew.getGames(btnRefresh);
 });
 
 //  add an event listener to the form submit button
@@ -36,7 +24,7 @@ form.addEventListener('submit', (event) => {
       name,
       score,
     };
-    leadboardNew.addLeadboard(leadboard);
+    leadboardNew.postScore(leadboard);
     document.querySelector('#name').value = '';
     document.querySelector('#score').value = '';
   }
