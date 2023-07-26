@@ -1,4 +1,4 @@
-(self["webpackChunkTodo_List"] = self["webpackChunkTodo_List"] || []).push([["print"],{
+(self["webpackChunkleaderboard"] = self["webpackChunkleaderboard"] || []).push([["print"],{
 
 /***/ "./src/print.js":
 /*!**********************!*\
