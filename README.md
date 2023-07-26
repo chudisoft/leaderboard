@@ -34,11 +34,11 @@
 
 # 📖 [Leaderboard] <a name="about-project"></a>
 
-> This project was created as part of Microverse module 2 week 2 tasks.
+> This project was created as part of Microverse module 2 week 4 tasks.
 It gives the student an opportunity to play around with HTML, CSS, and Github.
 It also allows the student to showcase what they can do to the future employee.
 
-**[Leaderboard]** is a project that allows one to store and manage list of todos.
+**[Leaderboard]** is a project that allows one to store and manage list of game scores.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -160,8 +160,7 @@ your server.
 
 > Features I will add to the project are:
 
-- [ ] **[Todo Form]**
-- [ ] **[Leaderboard]**
+- [ ] **[API integration]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
