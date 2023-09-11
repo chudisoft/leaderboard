@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #dfdfdf;
+  background-image: url('../assets/images/pexels.jpg');
   min-height: 100vh;
 }
 
@@ -87,11 +87,14 @@ button:hover {
 }
 
 #leadboard-section {
-  background-color: #fcfafa;
+  background-color: #f4f4f4de;
   width: 40em;
   max-width: 90%;
   font-size: large;
   padding: 2em 0;
+  border-radius: 10px;
+  border: #d0781a solid 4px;
+  box-shadow: 5px 3px 1px 2px #1972e3;
 }
 
 #leadboard-section h2 {
@@ -163,6 +166,7 @@ button:hover {
 .btn-primary {
   color: #fcfafa;
   background-color: rgb(0, 81, 255);
+  border-radius: 5px;
 }
 
 .typewriter h1 {

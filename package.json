@@ -1,7 +1,7 @@
 {
   "name": "leaderboard",
   "version": "1.0.0",
-  "description": "<a name=\"readme-top\"></a>\r <div align=\"center\">\r   <img src=\"assets/images/logo.png\" alt=\"logo\" width=\"140\"  height=\"auto\" />\r   <br/>",
+  "description": "A project that allows one to set player scores",
   "main": "index.js",
   "keywords": [],
   "author": "",
